@@ -18,14 +18,15 @@ This program is developed using **Python 3** (>v3.8) and requires several Python
 - **numpy**
 - **scipy**
 - **scikit-learn**
-- **pickle**
-- **Generic libraries**: `sys`, `re`, `subprocess`, `os`, `collections`, ...
+- **networkx**
+- **Generic libraries**: `sys`, `re`, `subprocess`, `os`, `math`,`collections`, ...
 
 ### Additional Software Requirements
 
 - **Naccess (v2.1.1)**: Ensure you edit the Naccess executable file with the path of your local installation. You can download it from [Naccess](http://www.bioinf.manchester.ac.uk/naccess/).
 
 - **FoldX (v2024)**: Kindly install the FoldX software from [FoldX](https://foldxsuite.crg.eu/).
+- **PSI-BLAST**
 - **UniProt db**
 
 
