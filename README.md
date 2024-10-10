@@ -26,6 +26,7 @@ This program is developed using **Python 3** (>v3.8) and requires several Python
 - **Naccess (v2.1.1)**: Ensure you edit the Naccess executable file with the path of your local installation. You can download it from [Naccess](http://www.bioinf.manchester.ac.uk/naccess/).
 
 - **FoldX (v2024)**: Kindly install the FoldX software from [FoldX](https://foldxsuite.crg.eu/).
+- **UniProt db**
 
 
 ## Code Usage
