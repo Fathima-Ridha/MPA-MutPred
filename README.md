@@ -30,19 +30,28 @@ This program is developed using **Python 3** (>v3.8) and requires several Python
 
 ## Code Usage
 
-Instructions on how to use the code are available in a `README.md` file within each folder (links provided below):
+To run the model for a single mutation, execute the following command from within the working directory:
 
-- [Dataset pre-processing](./path-to-dataset-preprocessing)
-- [Feature selection](./path-to-feature-selection)
-- [Model evaluation](./path-to-model-evaluation)
+      python3 code_main.py <PDBID> <chain1> <chain2> <mutation>
 
-For further queries related to code usage, feel free to reach out via email:
-- sowmya.rk1@tcs.com
-- roy.arijit3@tcs.com
-- gromiha@iitm.ac.in
+### Arguments:
+
+- **`<PDBID>`**: The ID of the PDB file (e.g., `1iar`).
+- **`<chain1>`**: The identifier for the first chain (e.g., `A`).
+- **`<chain2>`**: The identifier for the second chain (e.g., `B`).
+- **`<mutation>`**: The mutation string (e.g., `YB13F`).
+
+## Example
+
+Here's an example of how to use the command:
+
+      python3 code_main.py 1iar A B YB13F > output.txt
+  
+For further queries related to code usage, feel free to reach out via email (bt20d701@smail.iitm.ac.in, gromiha@iitm.ac.in) 
+
 
 ## Citation
 
 Please cite the following article if you use the code in this repository for your research:
 
-**Fathima Ridha**, **M. Michael Gromiha<sup>i</sup>**, _MPA-MutPred: A Novel Strategy for Accurately Predicting the Binding Affinity Change Upon Mutation in Membrane Protein Complexes_.
+**Ridha, F.**, &amp; Gromiha, M. M. (2024). MPA-MutPred: A novel strategy for accurately predicting the binding affinity change upon mutation in membrane protein complexes.
