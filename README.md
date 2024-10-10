@@ -9,11 +9,24 @@ We developed [MPA-MutPred](https://web.iitm.ac.in/bioinfo2/MPA-MutPred/), a nove
 
 The code has been provided for **academic purposes only**.
 
-## Data
+## Prerequisites
 
-The sample datasets used for training and evaluating the models are provided in the `data` folder. If you wish to use your own data or the complete dataset, you need to prepare the datasets in the format provided for each case to train/test the models.
+This program is developed using **Python 3** (>v3.8) and requires several Python packages to run. Please ensure the following packages are installed:
 
-To access the complete datasets used in the study, please visit the [R-SIM database](http://your-database-link.com).
+- **Bio**
+- **pandas**
+- **numpy**
+- **scipy**
+- **scikit-learn**
+- **pickle**
+- **Generic libraries**: `sys`, `re`, `subprocess`, `os`, `collections`, ...
+
+### Additional Software Requirements
+
+- **Naccess (v2.1.1)**: Ensure you edit the Naccess executable file with the path of your local installation. You can download it from [Naccess](http://www.bioinf.manchester.ac.uk/naccess/).
+
+- **FoldX (v2024)**: Kindly install the FoldX software from [FoldX](https://foldxsuite.crg.eu/).
+
 
 ## Code Usage
 
